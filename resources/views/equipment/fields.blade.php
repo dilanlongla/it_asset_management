@@ -28,11 +28,10 @@
 </div>
 <div class="clearfix"></div>
 
-
 <!-- About Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('about', 'About:') !!}
-    {!! Form::text('about', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('about', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- User Id Field -->
