@@ -21,3 +21,15 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 
 
 Route::resource('equipment', App\Http\Controllers\EquipmentController::class);
+
+
+Route::resource('states', App\Http\Controllers\StateController::class);
+
+
+
+
+
+
+
+
+Route::resource('equipmentStates', App\Http\Controllers\EquipmentStatesController::class);
